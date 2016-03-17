@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fz.personalview.TopBar
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topbar"
+    app:leftText="左边"
+    app:mtitle="中间"
+    app:rightText="右边"
+    app:leftBackground="#f00"
+    app:leftTextColor="#fff"
+    app:rightBackground="#f00"
+    app:rightTextColor="#fff"
+    app:mtitleTextColor="#f00"
+    app:mtitleTextSize="18dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    >
+
+</com.fz.personalview.TopBar>

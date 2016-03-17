@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 定义 TopBar 的三个位置的相关属性-->
+
+    <declare-styleable name="TopBar">
+        <attr name="mtitle" format="string"/>
+        <attr name="mtitleTextSize" format="dimension"/>
+        <attr name="mtitleTextColor" format="color"/>
+
+        <attr name="leftText" format="string"/>
+        <attr name="leftBackground" format="reference|color"/>
+        <attr name="leftTextColor" format="color"/>
+
+        <attr name="rightText" format="string"/>
+        <attr name="rightBackground" format="reference|color"/>
+        <attr name="rightTextColor" format="color"/>
+
+    </declare-styleable>
+
+</resources>
