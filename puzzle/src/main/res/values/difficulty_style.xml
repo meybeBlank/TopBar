@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="select_in" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/difficulty_in</item>
+        <item name="android:windowExitAnimation">@anim/difficulty_out</item>
+    </style>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9d2b5"
+    tools:context="com.fz.puzzle.MainActivity">
+
+    <!-- 引导栏，难度选择-->
+    <LinearLayout
+        android:id="@+id/ll_puzzle_spinner"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/tv_viewsize"
+            android:text="选择难度  "
+            android:gravity="center"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:padding="4dp"
+            android:id="@+id/tv_puzzle_selector_pic"
+            android:text="3 X 3"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <!-- 系统自带的图片选择，使用gridview进行展示-->
+    <GridView
+        android:paddingTop="72dp"
+        android:scrollbars="none"
+        android:id="@+id/gv_puzzle_pic_list"
+        android:layout_below="@id/ll_puzzle_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:numColumns="3"
+        android:horizontalSpacing="6dp"
+        android:verticalSpacing="2dp"
+        >
+    </GridView>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 联合使用 select &　shape 修饰按钮-->
+
+    <!-- 按下之后-->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+
+            <!-- 颜色填充-->
+            <solid android:color="#33444444"/>
+            <!-- 设置按钮的四角为弧形角   radius：圆角的半径-->
+            <corners android:radius="5dp"/>
+            <!-- 文字与Button边界的距离-->
+            <padding android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp"/>
+
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+
+            <solid android:color="#807a6f"/>
+            <!-- 设置按钮的四角为弧形角   radius：圆角的半径-->
+            <corners android:radius="5dp"/>
+            <!-- 文字与Button边界的距离-->
+            <padding android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp"/>
+        </shape>
+
+    </item>
+</selector>
